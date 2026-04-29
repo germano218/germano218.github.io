@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcos Vintage | Entusiasta de Carros Clássicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Raleway:wght@300;400;500;600&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header id="header">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-icon">&#9670;</span>
+          <span class="logo-text">Marcos<em>Vintage</em></span>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav id="navbar">
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#colecao">Coleção</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-tagline">Est. 1965 &mdash; Paixão que não enferruja</p>
+        <h1 class="hero-title">
+          Arte sobre <br /><em>quatro rodas</em>
+        </h1>
+        <p class="hero-sub">
+          Restauração, história e elegância dos automóveis que moldaram o século XX.
+        </p>
+        <a href="#sobre" class="btn-gold">Conheça meu trabalho</a>
+      </div>
+      <div class="hero-scroll">&#8595; role para baixo</div>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section id="sobre" class="section sobre">
+      <div class="container">
+        <div class="section-label">&#9670; Sobre mim</div>
+        <div class="sobre-grid">
+          <div class="sobre-img-wrap">
+            <!-- Placeholder SVG de carro clássico -->
+            <div class="sobre-img-frame">
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="car-svg">
+                <!-- Carroceria -->
+                <rect x="60" y="155" width="290" height="65" rx="8" fill="#1a1a1a" stroke="#c9a84c" stroke-width="2"/>
+                <!-- Teto -->
+                <path d="M120,155 Q160,100 200,95 Q240,90 280,110 L310,155 Z" fill="#111" stroke="#c9a84c" stroke-width="2"/>
+                <!-- Janelas -->
+                <path d="M135,150 Q165,115 195,110 L210,150 Z" fill="#c9a84c" opacity="0.25"/>
+                <path d="M215,150 L215,108 Q250,105 275,118 L295,150 Z" fill="#c9a84c" opacity="0.25"/>
+                <!-- Rodas -->
+                <circle cx="130" cy="225" r="32" fill="#0d0d0d" stroke="#c9a84c" stroke-width="3"/>
+                <circle cx="130" cy="225" r="18" fill="none" stroke="#c9a84c" stroke-width="2"/>
+                <circle cx="130" cy="225" r="6" fill="#c9a84c"/>
+                <circle cx="280" cy="225" r="32" fill="#0d0d0d" stroke="#c9a84c" stroke-width="3"/>
+                <circle cx="280" cy="225" r="18" fill="none" stroke="#c9a84c" stroke-width="2"/>
+                <circle cx="280" cy="225" r="6" fill="#c9a84c"/>
+                <!-- Faróis -->
+                <ellipse cx="345" cy="178" rx="14" ry="10" fill="#c9a84c" opacity="0.8"/>
+                <ellipse cx="60" cy="178" rx="14" ry="10" fill="#c9a84c" opacity="0.5"/>
+                <!-- Grade -->
+                <rect x="330" y="168" width="22" height="24" rx="3" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+                <line x1="340" y1="168" x2="340" y2="192" stroke="#c9a84c" stroke-width="1"/>
+                <line x1="330" y1="178" x2="352" y2="178" stroke="#c9a84c" stroke-width="1"/>
+                <!-- Detalhes laterais -->
+                <line x1="80" y1="185" x2="320" y2="185" stroke="#c9a84c" stroke-width="1" opacity="0.4"/>
+              </svg>
+              <div class="img-badge">Little Car</div>
+            </div>
+          </div>
+
+          <div class="sobre-text">
+            <h2>Olá, sou <strong>Marcos Germano</strong></h2>
+            <p class="sobre-intro">
+              Estudante de Engenharia de Software na <strong>Fametro</strong> e entusiasta
+              de carros clássicos desde os 12 anos, quando meu pai me mostrou seu Opala Comodoro 1979.
+            </p>
+            <p>
+              Combino minha paixão por automóveis históricos com habilidades em desenvolvimento web,
+              criando experiências digitais tão elegantes quanto as curvas de um Porsche 911 930.
+              Acredito que um bom design — seja numa carroceria ou numa interface — nunca passa de moda.
+            </p>
+            <div class="sobre-infos">
+              <div class="info-item">
+                <span class="info-label">Localização</span>
+                <span class="info-value">Manaus, AM</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Formação</span>
+                <span class="info-value">Engenharia de Software — Fametro</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Período</span>
+                <span class="info-value">2023 / 2028</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Foco</span>
+                <span class="info-value">Back-End Dev</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HABILIDADES ===================== -->
+    <section id="habilidades" class="section habilidades">
+  <div class="container">
+    <div class="section-label">&#9670; Habilidades &amp; Serviços</div>
+    <h2 class="section-title">O que eu ofereço</h2>
+    <p class="section-sub">
+      Cada habilidade aprimorada como um motor restaurado — com cuidado, precisão e amor ao detalhe.
+    </p>
+
+    <div class="cards-grid">
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="8" width="40" height="32" rx="3" stroke="#c9a84c" stroke-width="2.5"/>
+            <path d="M14 22 L20 16 L26 22 L34 14" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>HTML5 Semântico</h3>
+        <p>Estrutura limpa e acessível como o chassi de um clássico: cada elemento no lugar certo, com propósito e solidez.</p>
+        <div class="card-bar"><div class="card-bar-fill" style="width:85%"></div></div>
+        <span class="card-bar-label">85%</span>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 10 L10 24 L16 38" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M32 10 L38 24 L32 38" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 32 L28 16" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Python</h3>
+        <p>Elegância e poder em cada linha de código — como um motor flat-six: simples por fora, extraordinário por dentro.</p>
+        <div class="card-bar"><div class="card-bar-fill" style="width:75%"></div></div>
+        <span class="card-bar-label">75%</span>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="8" width="14" height="14" rx="2" stroke="#c9a84c" stroke-width="2.5"/>
+            <rect x="26" y="8" width="14" height="14" rx="2" stroke="#c9a84c" stroke-width="2.5"/>
+            <rect x="8" y="26" width="14" height="14" rx="2" stroke="#c9a84c" stroke-width="2.5"/>
+            <rect x="26" y="26" width="14" height="14" rx="2" stroke="#c9a84c" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <h3>JavaScript</h3>
+        <p>Interatividade e lógica fluindo como a transmissão de um clássico bem calibrado — suave, precisa e responsiva.</p>
+        <div class="card-bar"><div class="card-bar-fill" style="width:65%"></div></div>
+        <span class="card-bar-label">65%</span>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 12 C38 12 42 17 42 24 C42 31 38 36 30 36" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M18 12 C10 12 6 17 6 24 C6 31 10 36 18 36" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="16" y1="20" x2="24" y2="20" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="16" y1="28" x2="24" y2="28" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>C</h3>
+        <p>A linguagem das máquinas — controle total sobre o hardware, como pilotar um carro sem assistências eletrônicas.</p>
+        <div class="card-bar"><div class="card-bar-fill" style="width:60%"></div></div>
+        <span class="card-bar-label">60%</span>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="24" cy="14" rx="16" ry="6" stroke="#c9a84c" stroke-width="2.5"/>
+            <path d="M8 14 L8 34 C8 37.3 15.2 40 24 40 C32.8 40 40 37.3 40 34 L40 14" stroke="#c9a84c" stroke-width="2.5"/>
+            <path d="M8 24 C8 27.3 15.2 30 24 30 C32.8 30 40 27.3 40 24" stroke="#c9a84c" stroke-width="2"/>
+          </svg>
+        </div>
+        <h3>SQL</h3>
+        <p>Consultas precisas e estruturadas como o arquivo técnico de um clássico — cada dado organizado, rastreável e confiável.</p>
+        <div class="card-bar"><div class="card-bar-fill" style="width:70%"></div></div>
+        <span class="card-bar-label">70%</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ===================== COLEÇÃO ===================== -->
+   <section id="colecao" class="section colecao">
+  <div class="container">
+    <div class="section-label">&#9670; Coleção</div>
+    <h2 class="section-title">Ícones sobre rodas</h2>
+    <p class="section-sub">Alguns dos clássicos que mais me inspiram e que já tive o prazer de estudar e apreciar.</p>
+
+    <div class="colecao-grid">
+      <div class="colecao-card">
+        <div class="colecao-year">1980</div>
+        <h3>Porsche 911 930</h3>
+        <p>O lendário "Widowmaker" — turbo implacável, traseira larga e um caráter que exige respeito absoluto do piloto.</p>
+        <span class="colecao-tag">Turbo Clássico</span>
+      </div>
+      <div class="colecao-card featured">
+        <div class="colecao-year">1999</div>
+        <h3>Nissan Skyline GTR R34</h3>
+        <p>O "Godzilla" japonês: tecnologia de corrida numa carroceria de rua, com o mítico RB26 rugindo sob o capô.</p>
+        <span class="colecao-tag">JDM Legend</span>
+      </div>
+      <div class="colecao-card">
+        <div class="colecao-year">1987</div>
+        <h3>Ferrari F40</h3>
+        <p>O último carro aprovado pessoalmente por Enzo Ferrari — pura essência de velocidade sem concessões ao conforto.</p>
+        <span class="colecao-tag">Supercar</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ===================== CONTATO ===================== -->
+   <section id="contato" class="section contato">
+  <div class="container">
+    <div class="section-label">&#9670; Contato</div>
+    <h2 class="section-title">Vamos conversar</h2>
+    <p class="section-sub">
+      Seja sobre um projeto web ou para trocar ideia sobre carros clássicos — pode falar!
+    </p>
+
+    <div class="contato-grid">
+      <div class="contato-infos">
+        <div class="contato-item">
+          <div class="contato-icon">@</div>
+          <div>
+            <span class="contato-label">E-mail</span>
+            <a href="mailto:germanonazareth@gmail.com" class="contato-value">germanonazareth@gmail.com</a>
+          </div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">in</div>
+          <div>
+            <span class="contato-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/marcos-germano-dutra-nazareth-b13379351/" class="contato-value" target="_blank" rel="noopener noreferrer">linkedin.com/in/marcos-germano-dutra-nazareth</a>
+          </div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">&lt;/&gt;</div>
+          <div>
+            <span class="contato-label">GitHub</span>
+            <a href="https://github.com/germano218" class="contato-value" target="_blank" rel="noopener noreferrer">github.com/germano218</a>
+          </div>
+        </div>
+        <div class="contato-item">
+          <div class="contato-icon">&#9670;</div>
+          <div>
+            <span class="contato-label">Localização</span>
+            <span class="contato-value">Manaus, Amazonas — Brasil</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contato-form-wrap">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="assunto">Assunto</label>
+          <input type="text" id="assunto" name="assunto" placeholder="Projeto web, restauração, parceria..." />
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+        </div>
+        <button type="button" class="btn-gold" onclick="enviarFormulario()">Enviar mensagem &#10148;</button>
+        <div id="form-feedback" class="form-feedback"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer id="footer">
+      <div class="container footer-inner">
+        <div class="footer-logo">
+          <span class="logo-icon">&#9670;</span>
+          <span class="logo-text">Marcos<em>Vintage</em></span>
+        </div>
+        <p class="footer-tagline">
+          "Os carros clássicos são a prova de que belo design resiste ao tempo."
+        </p>
+        <nav class="footer-nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#colecao">Coleção</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <p class="footer-copy">
+          &copy; <span id="ano"></span> Marcos Germano &mdash; Todos os direitos reservados.
+          Feito com HTML5, CSS3 &amp; paixão por carros clássicos.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Ano dinâmico no footer
+      document.getElementById('ano').textContent = new Date().getFullYear();
+
+      // Menu hamburguer mobile
+      const toggle = document.getElementById('menuToggle');
+      const navbar = document.getElementById('navbar');
+      toggle.addEventListener('click', () => {
+        navbar.classList.toggle('open');
+        toggle.classList.toggle('active');
+      });
+
+      // Fechar menu ao clicar em link
+      document.querySelectorAll('#navbar a').forEach(link => {
+        link.addEventListener('click', () => {
+          navbar.classList.remove('open');
+          toggle.classList.remove('active');
+        });
+      });
+
+      // Header scroll effect
+      window.addEventListener('scroll', () => {
+        const header = document.getElementById('header');
+        header.classList.toggle('scrolled', window.scrollY > 60);
+      });
+
+      // Smooth scroll para links de navegação
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) target.scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+
+      // Animação das barras de habilidade ao entrar na tela
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.querySelectorAll('.card-bar-fill').forEach(bar => {
+              bar.style.width = bar.getAttribute('data-width') || bar.style.width;
+              bar.classList.add('animated');
+            });
+          }
+        });
+      }, { threshold: 0.2 });
+
+      document.querySelectorAll('.cards-grid').forEach(grid => observer.observe(grid));
+
+      // Feedback do formulário
+      function enviarFormulario() {
+        const nome = document.getElementById('nome').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const mensagem = document.getElementById('mensagem').value.trim();
+        const feedback = document.getElementById('form-feedback');
+
+        if (!nome || !email || !mensagem) {
+          feedback.textContent = '⚠ Por favor, preencha todos os campos obrigatórios.';
+          feedback.className = 'form-feedback error';
+          return;
+        }
+        feedback.textContent = '✓ Mensagem enviada com sucesso! Responderei em breve.';
+        feedback.className = 'form-feedback success';
+        document.getElementById('nome').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('assunto').value = '';
+        document.getElementById('mensagem').value = '';
+      }
+    </script>
+  </body>
+</html>
